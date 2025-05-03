@@ -21,21 +21,12 @@ void main() {
   const nama3 = "Hjiuumi";
   print(nama3);
   
-  var result = getValue();
+  late var result = getValue();
   print("King wahyu");
   print(result);
-  
-  var sitVar = getValue()
-    
-  print(sitVar);
 }
 
 String getValue() {
   print("go to school");
   return "not now";
-}
-
-String getValue() {
-  print("getValue berjalan");
-  return "getvalue isinya wahyu";
 }
